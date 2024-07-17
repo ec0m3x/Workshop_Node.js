@@ -1,5 +1,5 @@
-//ZIEL: Zuerst startet das Hauptprogramm, danach die langsame Operation
-//Das Hauptprogramm läuft danach weiter und die zusätzliche Aufgabe wird gestartet
+//ZIEL: Zuerst startet das Hauptprogramm (als Ausgabe im Terminal), danach die langsame Operation
+//Das Hauptprogramm läuft danach weiter (als Ausgabe im Terminal) und die zusätzliche Aufgabe wird gestartet
 //Diese wird nach der langsamen Operation fertig
 
 //EventEmitter Modul importieren
