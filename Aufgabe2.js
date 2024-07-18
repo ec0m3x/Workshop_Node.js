@@ -43,4 +43,3 @@ eventEmitter.on('additonalTaskComplete', (result) => {
 //Start des Hauptprogramms und der weiteren Aufgaben
 slowOperation();
 console.log('Hauptprogramm läuft weiter...');
-
