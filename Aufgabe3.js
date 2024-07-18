@@ -6,7 +6,7 @@ const app = express();
 
 //Logger Middleware einfügen
 app.use((req, res, next) => {
-    console.log('${reg.method}, ${req.url}');
+    console.log('eine Anfrage wurde gemacht');
     next();
 });
 
@@ -17,8 +17,9 @@ app.get('/', (req, res) => {
 
 app.get('/name', (reg, res) => {
     //Baue einen absichtlichen Fehler ein
-    res.status(500);
-    res.send('Name')
+    console.log(undefinedVariable);
+    res.send(Name)
+
 })
 
 // Error Handling Middleware
